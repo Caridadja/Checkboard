@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+body{
+	text-align: center;
+}
+#container{
+    display: inline-block;
+    background-color: black;
+}
+#container .blue{
+    background-color: blue;
+    height: 25%;
+    width: 12.5%;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+#container .purple{
+    background-color: purple;
+    height: 25%;
+    width: 12.5%;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+h1{
+	text-align: center;
+}
